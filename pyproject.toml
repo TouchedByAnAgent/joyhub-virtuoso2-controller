@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "touched-by-an-agent"
+version = "0.1.0"
+description = "Minimal BLE controller and Codex skill for the tested J-Virtuoso2 device."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["bleak>=0.22,<1.0"]
+
+[project.scripts]
+touched-by-an-agent = "touched_by_an_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
