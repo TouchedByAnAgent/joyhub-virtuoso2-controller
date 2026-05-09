@@ -4,6 +4,7 @@ Use this skill when an agent needs to control the validated Joyhub-compatible `J
 
 ## Device
 
+- Product link: https://amzn.to/4tpeo5E
 - BLE address: `FF:25:07:11:DD:36`
 - `productCode`: `3131`
 - `icCode`: `8d`
@@ -71,7 +72,7 @@ The reverse order did not reliably enable suction on the tested unit.
 - Always prefer `preset` or `send` without `--no-cleanup`; automatic all-off cleanup is on by default.
 - After any manual or interrupted run, execute `touched-by-an-agent all-off`.
 - Keep the device close to the host and visible during live operation.
-- Do not add shopping links, APK artifacts, decompiled source, UI code, scraping, unrelated product research, or broad multi-device work.
+- Do not add additional shopping links, APK artifacts, decompiled source, UI code, scraping, unrelated product research, or broad multi-device work.
 
 ## Verification
 

@@ -2,6 +2,7 @@
 
 Minimal production handoff repository for controlling the tested Joyhub-compatible device:
 
+- Product link: https://amzn.to/4tpeo5E
 - Device: `J-Virtuoso2 / Virtuoso 2`
 - BLE address used during validation: `FF:25:07:11:DD:36`
 - `productCode`: `3131`
@@ -10,7 +11,7 @@ Minimal production handoff repository for controlling the tested Joyhub-compatib
 - `abilityLimit`: `060050000000`
 - `switch_code`: `0803`
 
-No shopping links, APK artifacts, decompiled source, UI, scraping, or unrelated device support are included.
+No APK artifacts, decompiled source, UI, scraping, broad product research, or unrelated device support are included.
 
 ## Install
 
@@ -122,4 +123,4 @@ The tests use the Python standard library and cover device identity, command gen
 
 ## Agent Handoff
 
-Use `SKILL.md` as the agent-facing operating instructions. Keep changes focused on this validated device and protocol. Do not add product research, APK-derived files, broad multi-device abstractions, UI code, or unrelated automation.
+Use `SKILL.md` as the agent-facing operating instructions. Keep changes focused on this validated device, the specified product link, and protocol. Do not add broad product research, APK-derived files, broad multi-device abstractions, UI code, or unrelated automation.
