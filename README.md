@@ -1,4 +1,4 @@
-# TouchedByAnAgent
+# joyhub-virtuoso2-controller
 
 Minimal production handoff repository for controlling the tested Joyhub-compatible device:
 
