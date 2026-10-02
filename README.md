@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.jpg" alt="Glowing amber and magenta line-art of a generic handheld gadget emitting radio ripples while a stream of command packets flows toward a stop symbol." width="100%"></p>
+
 # joyhub-virtuoso2-controller
 
 Minimal production handoff repository for controlling the tested Joyhub-compatible device:
