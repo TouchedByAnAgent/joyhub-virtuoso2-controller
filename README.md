@@ -13,6 +13,8 @@ Minimal production handoff repository for controlling the tested Joyhub-compatib
 - `abilityLimit`: `060050000000`
 - `switch_code`: `0803`
 
+Status: working command-line tool, validated only against the device above. It needs Python 3.10 or later and the `bleak` Bluetooth library; the Install section below covers setup, and `--dry-run` prints commands without connecting.
+
 No APK artifacts, decompiled source, UI, scraping, broad product research, or unrelated device support are included.
 
 ## Install
